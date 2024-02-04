@@ -12,5 +12,5 @@ Running app
 
 Accessing the API
   1. http://localhost:3000/
-  2. http://localhost:3000/code/<id>
+  2. http://localhost:3000/code/<code_id>
   3. http://localhost:3000/action_id/<action_text>
