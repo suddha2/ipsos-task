@@ -1,4 +1,3 @@
-import model.action
 import json
 class IpsosService:
     
@@ -7,7 +6,7 @@ class IpsosService:
         self.load_data()
 
     def load_data(self):
-        data_file=open('data.json','r')
+        data_file=open('model/data.json','r')
         self.data_dict=json.load(data_file)['actions']
         data_file.close()
         
